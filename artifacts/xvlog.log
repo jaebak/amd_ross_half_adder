@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/data1/jbkim/amd_ross_test/rtl/cmod_a7_half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmod_a7_half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/data1/jbkim/amd_ross_test/rtl/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/data1/jbkim/amd_ross_test/sim/tb_cmod_a7_half_adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_cmod_a7_half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/data1/jbkim/amd_ross_test/build/vivado/cmod_a7_half_adder.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

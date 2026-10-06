@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_cmod_a7_half_adder_behav/xsimk -wdb /mnt/data1/jbkim/amd_ross_test/artifacts/half_adder.wdb -simmode gui -simrunnum 0 -socket 45435
+Design successfully loaded
+Design Loading Memory Usage: 425736 KB (Peak: 427612 KB)
+Design Loading CPU Usage: 700 ms
+Simulation completed
+Simulation Memory Usage: 507472 KB (Peak: 565004 KB)
+Simulation CPU Usage: 700 ms

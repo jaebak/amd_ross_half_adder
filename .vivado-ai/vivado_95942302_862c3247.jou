@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2026.1.1 (64-bit)
+# SW Build 6605303 on Fri Sep 04 05:45:32 MDT 2026
+# IP Build 6603865 on Fri Sep 04 05:05:05 MDT 2026
+# SharedData Build 6605217 on Fri Sep 04 02:50:14 MDT 2026
+# Start of session at: Tue Oct  6 23:12:23 2026
+# Process ID         : 3562739
+# Current directory  : /mnt/data1/jbkim/amd_ross_test
+# Command line       : vivado -mode tcl -log .vivado-ai/vivado_95942302_862c3247.log -journal .vivado-ai/vivado_95942302_862c3247.jou -notrace -source .vivado-ai/init_95942302_862c3247.tcl
+# Log file           : /mnt/data1/jbkim/amd_ross_test/.vivado-ai/vivado_95942302_862c3247.log
+# Journal file       : /mnt/data1/jbkim/amd_ross_test/.vivado-ai/vivado_95942302_862c3247.jou
+# Running On         : fpga
+# Platform           : almalinux
+# Operating System   : AlmaLinux 10.2 (Lavender Lion)"
+RELEASE_TYPE=stable
+# Processor Detail   : Intel(R) Core(TM) Ultra 9 285K
+# CPU Frequency      : 5185.238 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 24
+# Host memory        : 99774 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 116954 MB
+# Available Virtual  : 51785 MB
+#-----------------------------------------------------------
+source .vivado-ai/init_95942302_862c3247.tcl -notrace
+set_param -quiet messaging.defaultLimit 10000000
+puts "MCPPROBE:l2vofdbs2uxj:[get_param messaging.defaultLimit]"
+set_param -quiet messaging.defaultLimit 10000000
+send_msg_id {MCP 00-100} INFO {===MCP_CMD_START:5lei2zjqbjto===}
+puts "VSCSTART" ; set exitCode [catch {source /mnt/data1/jbkim/amd_ross_test/scripts/run_sim.tcl} result] ; catch {flush stdout} ; catch {flush stderr} ; puts $result ; puts "VSCEND:$exitCode"
+source tb_cmod_a7_half_adder.tcl
+send_msg_id {MCP 00-101} INFO "===MCP_CMD_END:5lei2zjqbjto:$exitCode==="
+set_param -quiet messaging.defaultLimit 10000000
+send_msg_id {MCP 00-100} INFO {===MCP_CMD_START:8zi4qhg5rzpn===}
+puts "VSCSTART" ; set exitCode [catch {close_project} result] ; catch {flush stdout} ; catch {flush stderr} ; puts $result ; puts "VSCEND:$exitCode"
+send_msg_id {MCP 00-101} INFO "===MCP_CMD_END:8zi4qhg5rzpn:$exitCode==="
+set_param -quiet messaging.defaultLimit 10000000
+send_msg_id {MCP 00-100} INFO {===MCP_CMD_START:vlvjwo0pp3ak===}
+puts "VSCSTART" ; set exitCode [catch {source /mnt/data1/jbkim/amd_ross_test/scripts/run_sim.tcl} result] ; catch {flush stdout} ; catch {flush stderr} ; puts $result ; puts "VSCEND:$exitCode"
+source tb_cmod_a7_half_adder.tcl
+send_msg_id {MCP 00-101} INFO "===MCP_CMD_END:vlvjwo0pp3ak:$exitCode==="
+set_param -quiet messaging.defaultLimit 10000000
+send_msg_id {MCP 00-100} INFO {===MCP_CMD_START:nzo1wzy67bat===}
+puts "VSCSTART" ; set exitCode [catch {source /mnt/data1/jbkim/amd_ross_test/scripts/build_bitstream.tcl} result] ; catch {flush stdout} ; catch {flush stderr} ; puts $result ; puts "VSCEND:$exitCode"
+send_msg_id {MCP 00-101} INFO "===MCP_CMD_END:nzo1wzy67bat:$exitCode==="
+set_param -quiet messaging.defaultLimit 10000000
+send_msg_id {MCP 00-100} INFO {===MCP_CMD_START:9yc672mlksf7===}
+puts "VSCSTART" ; set exitCode [catch {dict create version [version -short] synth_status [get_property STATUS [get_runs synth_1]] impl_status [get_property STATUS [get_runs impl_1]] ports [get_ports] io_pins [list [get_property PACKAGE_PIN [get_ports {btn[0]}]] [get_property PACKAGE_PIN [get_ports {btn[1]}]] [get_property PACKAGE_PIN [get_ports {led[0]}]] [get_property PACKAGE_PIN [get_ports {led[1]}]]]} result] ; catch {flush stdout} ; catch {flush stderr} ; puts $result ; puts "VSCEND:$exitCode"
+send_msg_id {MCP 00-101} INFO "===MCP_CMD_END:9yc672mlksf7:$exitCode==="
+set_param -quiet messaging.defaultLimit 10000000
+send_msg_id {MCP 00-100} INFO {===MCP_CMD_START:2ghotk13x03x===}
+puts "VSCSTART" ; set exitCode [catch {close_design} result] ; catch {flush stdout} ; catch {flush stderr} ; puts $result ; puts "VSCEND:$exitCode"
+send_msg_id {MCP 00-101} INFO "===MCP_CMD_END:2ghotk13x03x:$exitCode==="
+set_param -quiet messaging.defaultLimit 10000000
+send_msg_id {MCP 00-100} INFO {===MCP_CMD_START:39alobw2ehww===}
+puts "VSCSTART" ; set exitCode [catch {reset_runs synth_1} result] ; catch {flush stdout} ; catch {flush stderr} ; puts $result ; puts "VSCEND:$exitCode"
+send_msg_id {MCP 00-101} INFO "===MCP_CMD_END:39alobw2ehww:$exitCode==="
+set_param -quiet messaging.defaultLimit 10000000
+send_msg_id {MCP 00-100} INFO {===MCP_CMD_START:0lu0z9ecs9zv===}
+puts "VSCSTART" ; set exitCode [catch {source scripts/build_bitstream.tcl} result] ; catch {flush stdout} ; catch {flush stderr} ; puts $result ; puts "VSCEND:$exitCode"
+send_msg_id {MCP 00-101} INFO "===MCP_CMD_END:0lu0z9ecs9zv:$exitCode==="
+set_param -quiet messaging.defaultLimit 10000000
+send_msg_id {MCP 00-100} INFO {===MCP_CMD_START:u36pkamiwckq===}
+puts "VSCSTART" ; set exitCode [catch {dict create part [get_property PART [current_project]] synth_status [get_property STATUS [get_runs synth_1]] impl_status [get_property STATUS [get_runs impl_1]] cfgbvs [get_property CFGBVS [current_design]] configuration_voltage [get_property CONFIG_VOLTAGE [current_design]] pins [list [get_property PACKAGE_PIN [get_ports {btn[0]}]] [get_property PACKAGE_PIN [get_ports {btn[1]}]] [get_property PACKAGE_PIN [get_ports {led[0]}]] [get_property PACKAGE_PIN [get_ports {led[1]}]]]} result] ; catch {flush stdout} ; catch {flush stderr} ; puts $result ; puts "VSCEND:$exitCode"
+send_msg_id {MCP 00-101} INFO "===MCP_CMD_END:u36pkamiwckq:$exitCode==="
+set_param -quiet messaging.defaultLimit 10000000
+send_msg_id {MCP 00-100} INFO {===MCP_CMD_START:m57bi5ksjip2===}
+puts "VSCSTART" ; set exitCode [catch {exit} result] ; catch {flush stdout} ; catch {flush stderr} ; puts $result ; puts "VSCEND:$exitCode"

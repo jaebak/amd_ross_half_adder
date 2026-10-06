@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1791296292">
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="cmod_a7_half_adder_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="cmod_a7_half_adder_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="cmod_a7_half_adder.vdi"/>
+  <File Type="BG-DRC" Name="cmod_a7_half_adder.drc"/>
+  <File Type="BG-BGN" Name="cmod_a7_half_adder.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="cmod_a7_half_adder.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="cmod_a7_half_adder.ltx"/>
+  <File Type="PL-LTX-FILE" Name="cmod_a7_half_adder_pld.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="cmod_a7_half_adder_boot.ltx"/>
+  <File Type="LTX-FILE" Name="cmod_a7_half_adder.ltx"/>
+  <File Type="PL-BIF-FILE" Name="cmod_a7_half_adder_pld.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="cmod_a7_half_adder_boot.bif"/>
+  <File Type="BIF-FILE" Name="cmod_a7_half_adder.bif"/>
+  <File Type="MMI-FILE" Name="cmod_a7_half_adder.mmi"/>
+  <File Type="RBD_FILE" Name="cmod_a7_half_adder.rbd"/>
+  <File Type="NPI_FILE" Name="cmod_a7_half_adder.npi"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="cmod_a7_half_adder_pld_unmask_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="cmod_a7_half_adder_pld_mask.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="cmod_a7_half_adder_pld_markers.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="cmod_a7_half_adder_pld_clear.rcdo"/>
+  <File Type="PL-RCDO-FILE" Name="cmod_a7_half_adder_pld.rcdo"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="cmod_a7_half_adder_pld_unmask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="cmod_a7_half_adder_pld_shutdown.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="cmod_a7_half_adder_pld_mask.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="cmod_a7_half_adder_pld_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="cmod_a7_half_adder_pld.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="cmod_a7_half_adder_boot_markers.rnpi"/>
+  <File Type="BOOT_RNPI_FILE" Name="cmod_a7_half_adder_boot.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="cmod_a7_half_adder_markers.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="cmod_a7_half_adder_markers.rnpi"/>
+  <File Type="RCDO-FILE" Name="cmod_a7_half_adder.rcdo"/>
+  <File Type="RNPI_FILE" Name="cmod_a7_half_adder.rnpi"/>
+  <File Type="CFI_FILE" Name="cmod_a7_half_adder.cfi"/>
+  <File Type="RCFI_FILE" Name="cmod_a7_half_adder.rcfi"/>
+  <File Type="PL-PDI-FILE" Name="cmod_a7_half_adder_pld.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="cmod_a7_half_adder_boot.pdi"/>
+  <File Type="PDI-FILE" Name="cmod_a7_half_adder.pdi"/>
+  <File Type="BITSTR-MMI" Name="cmod_a7_half_adder.mmi"/>
+  <File Type="BITSTR-BMM" Name="cmod_a7_half_adder_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="cmod_a7_half_adder.nky"/>
+  <File Type="BITSTR-RBT" Name="cmod_a7_half_adder.rbt"/>
+  <File Type="BITSTR-MSK" Name="cmod_a7_half_adder.msk"/>
+  <File Type="BG-BIN" Name="cmod_a7_half_adder.bin"/>
+  <File Type="BG-WRITE-BITSTREAM-XML" Name="write_bitstream.xml"/>
+  <File Type="BG-XML" Name="cmod_a7_half_adder.xml"/>
+  <File Type="BG-BIT" Name="cmod_a7_half_adder.bit"/>
+  <File Type="NOC_SOLUTION_FILE" Name="cmod_a7_half_adder.ncr"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="cmod_a7_half_adder_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="cmod_a7_half_adder_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="cmod_a7_half_adder_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="cmod_a7_half_adder_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="cmod_a7_half_adder_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="cmod_a7_half_adder_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="cmod_a7_half_adder_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="cmod_a7_half_adder_postroute_physopt.dcp"/>
+  <File Type="ROUTE-RQS-PB" Name="cmod_a7_half_adder_rqs_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="cmod_a7_half_adder_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="cmod_a7_half_adder_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="cmod_a7_half_adder_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="cmod_a7_half_adder_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="cmod_a7_half_adder_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="cmod_a7_half_adder_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="cmod_a7_half_adder_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="cmod_a7_half_adder_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="cmod_a7_half_adder_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="cmod_a7_half_adder_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="cmod_a7_half_adder_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="cmod_a7_half_adder_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="cmod_a7_half_adder_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="cmod_a7_half_adder_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="cmod_a7_half_adder_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="cmod_a7_half_adder_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="cmod_a7_half_adder_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="cmod_a7_half_adder_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="cmod_a7_half_adder_drc_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="cmod_a7_half_adder_utilization_routed.pb"/>
+  <File Type="ROUTE-UTIL" Name="cmod_a7_half_adder_utilization_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="cmod_a7_half_adder_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="cmod_a7_half_adder_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="cmod_a7_half_adder_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="cmod_a7_half_adder_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="cmod_a7_half_adder_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="cmod_a7_half_adder_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="cmod_a7_half_adder_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="cmod_a7_half_adder_postplace_pwropt.dcp"/>
+  <File Type="PLACE-RQA-PB" Name="cmod_a7_half_adder_rqa_placed.pb"/>
+  <File Type="PLACE-TIMING" Name="cmod_a7_half_adder_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="cmod_a7_half_adder_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="cmod_a7_half_adder_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="cmod_a7_half_adder_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="cmod_a7_half_adder_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="cmod_a7_half_adder_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="cmod_a7_half_adder_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="cmod_a7_half_adder_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="cmod_a7_half_adder_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="cmod_a7_half_adder_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="cmod_a7_half_adder_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="cmod_a7_half_adder_pwropt.dcp"/>
+  <File Type="OPT-RQA-PB" Name="cmod_a7_half_adder_rqa_opted.pb"/>
+  <File Type="OPT-TIMING" Name="cmod_a7_half_adder_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="cmod_a7_half_adder.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="cmod_a7_half_adder_methodology_drc_opted.rpt"/>
+  <File Type="OPT-UTIL-PB" Name="cmod_a7_half_adder_utilization_opted.pb"/>
+  <File Type="OPT-UTIL" Name="cmod_a7_half_adder_utilization_opted.rpt"/>
+  <File Type="OPT-DRC" Name="cmod_a7_half_adder_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="cmod_a7_half_adder_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="cmod_a7_half_adder_timing_summary_init.rpt"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="cmod_a7_half_adder.nts"/>
+  <File Type="REPORTS-TCL" Name="cmod_a7_half_adder_reports.tcl"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="cmod_a7_half_adder_pld_unmask.rcdo"/>
+  <File Type="PA-TCL" Name="cmod_a7_half_adder.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../rtl/half_adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/cmod_a7_half_adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="cmod_a7_half_adder"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../constraints/cmod_a7_35t.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/cmod_a7_half_adder.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2026">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

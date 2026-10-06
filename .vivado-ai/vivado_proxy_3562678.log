@@ -1,0 +1,54 @@
+2026/10/06 23:12:22.307448 vivado-proxy: starting PID=3562678 host=fpga go=go1.25.11 GOARCH=amd64 GOOS=linux
+2026/10/06 23:12:22.307564 vivado-proxy: listening on 127.0.0.1:33225
+2026/10/06 23:12:22.307588 vivado-proxy: MCP_PROXY_PORT_DIR unset — running without connection authentication (loopback only)
+2026/10/06 23:12:22.308447 vivado-proxy: spawning: [/opt/XilinxNative/2026.1.1/Vivado/bin/vivado -mode tcl -log .vivado-ai/vivado_95942302_862c3247.log -journal .vivado-ai/vivado_95942302_862c3247.jou -notrace -source .vivado-ai/init_95942302_862c3247.tcl]
+2026/10/06 23:12:22.308758 vivado-proxy: child PID 3562684
+2026/10/06 23:12:22.309052 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:12:22.309076 vivado-proxy: output stream client connected from 127.0.0.1:38676
+2026/10/06 23:12:22.309087 vivado-proxy: output stream resuming from stdout=0 stderr=0
+2026/10/06 23:12:27.345066 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:12:27.345203 vivado-proxy: config webserver_url = http://localhost:8088
+2026/10/06 23:12:27.345227 vivado-proxy: config log_file_path = /mnt/data1/jbkim/amd_ross_test/.vivado-ai/vivado_95942302_862c3247.log
+2026/10/06 23:12:32.345061 vivado-proxy: message limit verified (10000000)
+2026/10/06 23:12:51.204291 vivado-proxy: exec [5lei2zjqbjto] req=vivado-20261006-231222-6c286e6c-6713179-cmd-1 source /mnt/data1/jbkim/amd_ross_test/scripts/run_sim.tcl
+2026/10/06 23:13:20.464773 vivado-proxy: exec [8zi4qhg5rzpn] req=vivado-20261006-231222-6c286e6c-6713179-cmd-2 close_project
+2026/10/06 23:13:23.877727 vivado-proxy: exec [vlvjwo0pp3ak] req=vivado-20261006-231222-6c286e6c-6713179-cmd-3 source /mnt/data1/jbkim/amd_ross_test/scripts/run_sim.tcl
+2026/10/06 23:13:29.151823 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:13:29.156228 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:14:00.016383 vivado-proxy: exec [nzo1wzy67bat] req=vivado-20261006-231222-6c286e6c-6713179-cmd-4 source /mnt/data1/jbkim/amd_ross_test/scripts/build_bitstream.tcl
+2026/10/06 23:14:09.151499 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:14:09.151886 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:14:19.151309 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:14:19.152239 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:14:29.151263 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:14:29.151872 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:14:39.151616 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:14:39.151999 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:14:49.151866 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:14:49.152409 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:14:59.151422 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:14:59.151880 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:15:09.152042 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:15:09.152358 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:15:41.333797 vivado-proxy: exec [9yc672mlksf7] req=vivado-20261006-231222-6c286e6c-6713179-cmd-5 dict create version [version -short] synth_status [get_property STATUS [get_runs synth_1]] impl_status [get_property STATUS [get_runs impl_1]] ports [get_ports] io_pins [list [get_property PACKAGE_PIN [get_ports {btn[0]}]] [get_property PACKAGE_PIN [get_ports {btn[1]}]] [get_property PACKAGE_PIN [get_ports {led[0]}]] [get_property PACKAGE_PIN [get_ports {led[1]}]]]
+2026/10/06 23:17:44.685964 vivado-proxy: exec [2ghotk13x03x] req=vivado-20261006-231222-6c286e6c-6713179-cmd-6 close_design
+2026/10/06 23:17:50.512935 vivado-proxy: exec [39alobw2ehww] req=vivado-20261006-231222-6c286e6c-6713179-cmd-7 reset_runs synth_1
+2026/10/06 23:17:55.018950 vivado-proxy: exec [0lu0z9ecs9zv] req=vivado-20261006-231222-6c286e6c-6713179-cmd-8 source scripts/build_bitstream.tcl
+2026/10/06 23:17:59.150761 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:17:59.151012 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:18:09.152024 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:18:09.153204 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:18:19.151328 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:18:19.151738 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:18:29.151309 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:18:29.151592 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:18:39.151168 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:18:39.151431 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:18:49.151824 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:18:49.152277 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:18:59.151414 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:18:59.151985 vivado-proxy: HELLO handshake complete, protocol v3
+2026/10/06 23:20:04.319352 vivado-proxy: exec [u36pkamiwckq] req=vivado-20261006-231222-6c286e6c-6713179-cmd-9 dict create part [get_property PART [current_project]] synth_status [get_property STATUS [get_runs synth_1]] impl_status [get_property STATUS [get_runs impl_1]] cfgbvs [get_property CFGBVS [current_design]] configuration_voltage [get_property CONFIG_VOLTAGE [current_design]] pins [list [get_property PACKAGE_PIN [get_ports {btn[0]}]] [get_property PACKAGE_PIN [get_ports {btn[1]}]] [get_property PACKAGE_PIN [get_ports {led[0]}]] [get_property PACKAGE_PIN [get_ports {led[1]}]]]
+2026/10/06 23:20:40.620379 vivado-proxy: exec [m57bi5ksjip2] req=vivado-20261006-231222-6c286e6c-6713179-cmd-10 exit
+2026/10/06 23:20:40.793788 vivado-proxy: child exited normally
+2026/10/06 23:20:40.793839 vivado-proxy: exec [m57bi5ksjip2] abandoned — Vivado exited before the end marker

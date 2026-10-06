@@ -1,0 +1,8 @@
+0.7
+2020.2
+Sep  4 2026
+05:51:53
+/mnt/data1/jbkim/amd_ross_test/build/vivado/cmod_a7_half_adder.sim/sim_1/behav/xsim/glbl.v,1778928260,verilog,,,,glbl,,uvm,,,,,,
+/mnt/data1/jbkim/amd_ross_test/rtl/cmod_a7_half_adder.v,1791295914,verilog,,/mnt/data1/jbkim/amd_ross_test/rtl/half_adder.v,,cmod_a7_half_adder,,uvm,../../../../../../../../../../opt/XilinxNative/2026.1.1/data/rsb/busdef,,,,,
+/mnt/data1/jbkim/amd_ross_test/rtl/half_adder.v,1791295914,verilog,,,,half_adder,,uvm,../../../../../../../../../../opt/XilinxNative/2026.1.1/data/rsb/busdef,,,,,
+/mnt/data1/jbkim/amd_ross_test/sim/tb_cmod_a7_half_adder.sv,1791295914,systemVerilog,,,,tb_cmod_a7_half_adder,,uvm,../../../../../../../../../../opt/XilinxNative/2026.1.1/data/rsb/busdef,,,,,

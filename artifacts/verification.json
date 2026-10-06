@@ -1,0 +1,39 @@
+{
+  "tool": "Vivado / XSim 2026.1.1",
+  "part": "xc7a35tcpg236-1",
+  "simulation": {
+    "mode": "behavioral",
+    "top": "tb_cmod_a7_half_adder",
+    "result": "PASS",
+    "checks": 36,
+    "input_combinations": 4,
+    "ordered_transitions": 16,
+    "finish_ns": 360,
+    "watchdog_ns": 1000
+  },
+  "build": {
+    "result": "PASS",
+    "drc_violations": 0,
+    "max_delay_budget_ns": 20,
+    "reported_worst_delay_ns": 9.075,
+    "reported_worst_slack_ns": 10.925,
+    "warnings": [
+      "WARNING: [Power 33-232] No user defined clocks were found in the design! Power estimation will be inaccurate until this is corrected."
+    ]
+  },
+  "bitstream": {
+    "path": "artifacts/cmod_a7_half_adder.bit",
+    "bytes": 2192223,
+    "sha256": "3983e564e8893344c1586ac1a0994ee755a726a9c400d8a71c53f7fdadd7b1bb"
+  },
+  "hardware_programmed": false,
+  "source_sha256": {
+    "rtl/cmod_a7_half_adder.v": "da1fa616632e32eaad4f2ca2764d716227d9cf7f6668f633977eea0901ef86db",
+    "rtl/half_adder.v": "a55da451dac1f3de35f47f91f261ce6613e8b9c4d41a3dbca724f776827c747e",
+    "constraints/cmod_a7_35t.xdc": "2c115bf7ee394d9ad024398d441d4a5d36ac5ad417cf77e226c7ba1f32479dd0",
+    "sim/tb_cmod_a7_half_adder.sv": "bbaab1cf1eeca960aafc38474113760b0aa165dc12cf0e99b82d17c4b12b3ab4",
+    "scripts/build_bitstream.tcl": "5ba833008816c47645c874459700d327e4e1fb111088637a43ab51620e654479",
+    "scripts/create_project.tcl": "eed3b8cc2b708148dfec190a6496c6ab4b03d51456cfa96144a71329d8c86e73",
+    "scripts/run_sim.tcl": "aa79f85d372eaf55ca9443fef224ba66b62193af422c7d63c9d8f3cccd720b2c"
+  }
+}

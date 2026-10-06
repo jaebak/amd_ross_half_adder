@@ -1,0 +1,40 @@
+Time resolution is 1 ps
+CHECK 1: A=0 B=0 sum=0 carry=0
+CHECK 2: A=1 B=0 sum=1 carry=0
+CHECK 3: A=0 B=1 sum=1 carry=0
+CHECK 4: A=1 B=1 sum=0 carry=1
+CHECK 5: A=0 B=0 sum=0 carry=0
+CHECK 6: A=0 B=0 sum=0 carry=0
+CHECK 7: A=0 B=0 sum=0 carry=0
+CHECK 8: A=1 B=0 sum=1 carry=0
+CHECK 9: A=0 B=0 sum=0 carry=0
+CHECK 10: A=0 B=1 sum=1 carry=0
+CHECK 11: A=0 B=0 sum=0 carry=0
+CHECK 12: A=1 B=1 sum=0 carry=1
+CHECK 13: A=1 B=0 sum=1 carry=0
+CHECK 14: A=0 B=0 sum=0 carry=0
+CHECK 15: A=1 B=0 sum=1 carry=0
+CHECK 16: A=1 B=0 sum=1 carry=0
+CHECK 17: A=1 B=0 sum=1 carry=0
+CHECK 18: A=0 B=1 sum=1 carry=0
+CHECK 19: A=1 B=0 sum=1 carry=0
+CHECK 20: A=1 B=1 sum=0 carry=1
+CHECK 21: A=0 B=1 sum=1 carry=0
+CHECK 22: A=0 B=0 sum=0 carry=0
+CHECK 23: A=0 B=1 sum=1 carry=0
+CHECK 24: A=1 B=0 sum=1 carry=0
+CHECK 25: A=0 B=1 sum=1 carry=0
+CHECK 26: A=0 B=1 sum=1 carry=0
+CHECK 27: A=0 B=1 sum=1 carry=0
+CHECK 28: A=1 B=1 sum=0 carry=1
+CHECK 29: A=1 B=1 sum=0 carry=1
+CHECK 30: A=0 B=0 sum=0 carry=0
+CHECK 31: A=1 B=1 sum=0 carry=1
+CHECK 32: A=1 B=0 sum=1 carry=0
+CHECK 33: A=1 B=1 sum=0 carry=1
+CHECK 34: A=0 B=1 sum=1 carry=0
+CHECK 35: A=1 B=1 sum=0 carry=1
+CHECK 36: A=1 B=1 sum=0 carry=1
+TEST_PASS: 36 checks; 4 input combinations; 16 ordered transitions
+$finish called at time : 360 ns : File "/mnt/data1/jbkim/amd_ross_test/sim/tb_cmod_a7_half_adder.sv" Line 54
+INFO: xsimkernel Simulation Memory Usage: 507472 KB (Peak: 565004 KB), Simulation CPU Usage: 700 ms
